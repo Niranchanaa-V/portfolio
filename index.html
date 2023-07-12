@@ -1,53 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="portfolio.css">
- </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
 <body>
   <header>
-    <h1>NIRANCHANAA V</h1>
+    <h1>NIRANCHANAA</h1>
     <nav>
       <ul>
-        <li><a href="#about"></a>About</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <div class="career"><p>
-    I am a young, asthetic future Engineer who is seeking for a position 
-    in a company where I can  learn new skills,make best of my potential 
-    and contribute to the organization's growth
-  </p>
-  <!-- <img src="image/IMG-200201.jpg"/> -->
-  </div>
 
   <section id="about">
-    <h2>About</h2>
-    <p></p>
+    <h2>About Me</h2>
+    <p>Seeking for a challenging position in a reputed organization to learn new skills, make the best of my potential and contribute to the organization's growth</p>
+    
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>Programming languages:C, Java</li>
+      <li>Frontend:HTML,CSS,JavaScript</li>
+      <li>Frameworks:Express,React</li>
+      <li>Database:SQL,Database</li>
+      <li>Tools:VS Code,Git,Github</li>
+     
+    </ul>
   </section>
 
   <section id="projects">
-    <h2>Projects</h2>
+    <h2>My Projects</h2>
     <div class="project">
-      <h3></h3>
-      <p></p>
+      <h3>Bus Navigator</h3>
+      <p>     Developed applications  to send and receive the dynamic location of the bus.  
+        Location Updater: In this application once the location is started sharing by clicking the update button ,then it gets updated dynamically.
+        Location Receiver:  In this application the latitude and longitude of the location of the bus is received and its location can be seen through google map</p>
     </div>
     <div class="project">
-      <h3></h3>
-      <p></p>
+      <h3>Recipe Sharing App</h3>
+      <p>In this system, new recipes can be added and those recipes can be viewed alter my registering into this site. The name of the dish, ingredients, cooking time, picture oh the dish is shared </p>
     </div>
-   
   </section>
 
   <section id="contact">
-    <h2>Contact</h2>
-    <p></p>
+    <h2>Contact Me</h2>
+    <p>Mail:niranchanaav23@gmail.com</p>
+    <p>LinkedIn:Niranchanaa V</p>
+    <p>Phone:+919345597655</p><br>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </section>
 
-
+ 
 </body>
 </html>
-
